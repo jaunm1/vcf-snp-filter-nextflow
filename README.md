@@ -14,6 +14,7 @@ The workflow extracts SNP variants using bcftools and produces simple QC metrics
 
 ```bash
 nextflow run main.nf --input sample.vcf.gz
+```
 
 ## Output
 
