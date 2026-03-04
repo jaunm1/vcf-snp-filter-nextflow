@@ -10,6 +10,10 @@ The workflow extracts SNP variants using bcftools and produces simple QC metrics
 - bcftools
 - Python 3
 
+## Input
+
+- `--input` : compressed VCF file (`.vcf.gz`)
+
 ## Run
 
 ```bash
