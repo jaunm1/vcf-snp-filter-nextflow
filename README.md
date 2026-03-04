@@ -11,6 +11,7 @@ graph TD
     A[VCF Input] --> B[SNP Filtering]
     B --> C[QC Statistics]
     C --> D[Summary Report]
+```
 
 ## Requirements
 
