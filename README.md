@@ -8,7 +8,7 @@ The workflow extracts SNP variants using bcftools and produces simple QC metrics
 
 ```mermaid
 graph TD
-    A[VCF Input] --> B[SNP Filtering (bcftools)]
+    A[VCF Input] --> B[SNP Filtering]
     B --> C[QC Statistics]
     C --> D[Summary Report]
 
